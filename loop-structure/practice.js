@@ -43,3 +43,15 @@
 // for (; index < 100; index += step) {
 //   console.log(index);
 // }
+
+// let arr = [];
+// for (let i = 0; i < 100; i++) {
+//   arr.push(i);
+// }
+// console.log(arr);
+
+let arr = [];
+for (let i = 0; i < 100; i += 2) {
+  arr.push(i);
+}
+console.log(arr);
