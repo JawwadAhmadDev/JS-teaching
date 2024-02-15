@@ -50,8 +50,30 @@
 // }
 // console.log(arr);
 
-let arr = [];
-for (let i = 0; i < 100; i += 2) {
-  arr.push(i);
+// let arr = [];
+// for (let i = 0; i < 100; i += 2) {
+//   arr.push(i);
+// }
+// console.log(arr);
+
+// let i = 10;
+// let j = 5;
+
+// let counting = 1;
+// for (let outer = 0; outer < i; outer++) {
+//   for (let inner = 0; inner < j; inner++) {
+//     console.log(counting++);
+//   }
+//   console.log();
+// }
+
+let arrOfArrays = [];
+
+for (let i = 0; i < 3; i++) {
+  arrOfArrays.push([]);
+  for (let j = 0; j < 7; j++) {
+    arrOfArrays[i].push(j);
+  }
 }
-console.log(arr);
+
+console.table(arrOfArrays);
