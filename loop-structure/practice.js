@@ -35,3 +35,11 @@
 // do {
 //   number = prompt("Please enter a number between 0 and 100: ");
 // } while (number >= 0 && number < 100);
+
+// for loop
+
+// let step = 10;
+// let index = 0;
+// for (; index < 100; index += step) {
+//   console.log(index);
+// }
