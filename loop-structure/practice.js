@@ -102,7 +102,69 @@
 // }
 // console.log(names.length);
 
-let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
-for (let i = 0; i < names.length; i++) {
-  names.push("...");
-}
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let i = 0; i < names.length; i++) {
+//   names.push("...");
+// }
+
+//  for of loop
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let name of names) {
+//   console.log(name);
+// }
+
+// for in loop
+// let car = {
+//   model: "Golf",
+//   make: "Volkswagen",
+//   year: 1999,
+//   color: "black",
+// };
+// for (let prop in car) {
+//   console.log(car[prop]);
+// }
+
+// let car = {
+//   model: "Golf",
+//   make: "Volkswagen",
+//   year: 1999,
+//   color: "black",
+// };
+// let arrKeys = Object.keys(car);
+// console.log(arrKeys);
+
+// for (let key of Object.keys(car)) {
+//   console.log(key);
+// }
+
+// let arrValues = Object.values(car);
+// console.log(arrValues);
+
+// let car = {
+//   model: "Golf",
+//   make: "Volkswagen",
+//   year: 1999,
+//   color: "black",
+// };
+// let arrKeys = ["model", "make", "year", "color"];
+// for (let i = 0; i < arrKeys.length; i++) {
+//   console.log(arrKeys[i] + ": " + car[arrKeys[i]]);
+// }
+
+// let arrEntries = Object.entries(car);
+// for (let entry of arrEntries) {
+//   for (let subEntry of entry) {
+//     console.log(subEntry);
+//   }
+//   console.log();
+// }
+
+//  break and continue statements
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+//   if (i === 4) {
+//     continue;
+//   }
+//   console.log("jawwad");
+// }
