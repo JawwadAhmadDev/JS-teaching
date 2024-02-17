@@ -67,13 +67,42 @@
 //   console.log();
 // }
 
-let arrOfArrays = [];
+// let arrOfArrays = [];
 
-for (let i = 0; i < 3; i++) {
-  arrOfArrays.push([]);
-  for (let j = 0; j < 7; j++) {
-    arrOfArrays[i].push(j);
-  }
+// for (let i = 0; i < 3; i++) {
+//   arrOfArrays.push([]);
+//   for (let j = 0; j < 7; j++) {
+//     arrOfArrays[i].push(j);
+//   }
+// }
+
+// console.table(arrOfArrays);
+
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+
+// for (let index = 0; index < names.length; index++) {
+//   console.log(names[index]);
+// }
+
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let i = 0; i < names.length; i++) {
+//   names[i] = "hello " + names[i];
+// }
+
+// console.log(names);
+
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+
+// for (let i = 0; i < names.length; i++) {
+//   if (names[i].startsWith("M")) {
+//     delete names[i];
+//     continue;
+//   }
+//   names[i] = "hello " + names[i];
+// }
+// console.log(names.length);
+
+let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let i = 0; i < names.length; i++) {
+  names.push("...");
 }
-
-console.table(arrOfArrays);
